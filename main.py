@@ -34,7 +34,5 @@ while not game_over:
     if event.getKeys(keyList=["escape"]):
         game_over = True
 
-    draw_snake(win, snake)
-
 win.close()
 
